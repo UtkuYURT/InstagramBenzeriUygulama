@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/fragmentUrun"
+        android:icon="@drawable/resim_ana_sayfa"
+        android:title="Ana Sayfa" />
+    <item
+        android:id="@+id/fragmentArama"
+        android:icon="@drawable/resim_arama"
+        android:title="Keşfet" />
+    <item
+        android:id="@+id/fragmentEkle"
+        android:icon="@drawable/resim_ekle"
+        android:title="Ekle" />
+    <item
+        android:id="@+id/fragmentHesabim"
+        android:icon="@drawable/resim_hesabim"
+        android:title="Hesabım" />
+</menu>

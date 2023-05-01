@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/bottom_nav"
+    app:startDestination="@id/fragmentUrun">
+
+    <fragment
+        android:id="@+id/fragmentUrun"
+        android:name="com.example.loginpage.FragmentUrun"
+        android:label="fragment_urun"
+        tools:layout="@layout/fragment_urun" />
+    <fragment
+        android:id="@+id/fragmentArama"
+        android:name="com.example.loginpage.FragmentArama"
+        android:label="fragment_arama"
+        tools:layout="@layout/fragment_arama" />
+    <fragment
+        android:id="@+id/fragmentHesabim"
+        android:name="com.example.loginpage.FragmentHesabim"
+        android:label="fragment_hesabim"
+        tools:layout="@layout/fragment_hesabim" />
+    <fragment
+        android:id="@+id/fragmentEkle"
+        android:name="com.example.loginpage.FragmentEkle"
+        android:label="fragment_ekle"
+        tools:layout="@layout/fragment_ekle" />
+</navigation>
